@@ -3,8 +3,9 @@ package oop_practice.cat_dog.dog;
 import oop_practice.cat_dog.animal.Animal;
 
 public class Dog implements Animal {
-private String name;
-private String className = "Doc";
+    private String name;
+
+    private String className = "Doc"; //тут специально другая реализация, потому что Doc, а не Dog. Не знаю, опечатка ли это
 
 
     public Dog(String name) {
