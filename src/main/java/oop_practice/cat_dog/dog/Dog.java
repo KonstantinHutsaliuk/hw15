@@ -5,7 +5,7 @@ import oop_practice.cat_dog.animal.Animal;
 public class Dog implements Animal {
     private String name;
 
-    private String className = "Doc"; //тут специально другая реализация, потому что Doc, а не Dog. Не знаю, опечатка ли это
+    private String className = this.getClass().getSimpleName();
 
 
     public Dog(String name) {
