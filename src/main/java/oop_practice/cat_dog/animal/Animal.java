@@ -1,5 +1,7 @@
 package oop_practice.cat_dog.animal;
 
-public class Animal {
+public interface Animal {
+    public String voice();
 
+    public void sound();
 }
